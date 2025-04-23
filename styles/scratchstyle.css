@@ -1,0 +1,160 @@
+body {
+  background-color: #D3D3D3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding: 3rem;
+  background-image: url('../images/BMG.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+
+  .hero-left {
+    flex: 1;
+    min-width: 300px;
+  }
+  .hero-right {
+    flex: 1;
+    background-color: #3f4045;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    min-width: 300px;
+  }
+    .hero-overlay {
+      background-color: rgba(0, 0, 0, 0.5); /* semi-transparent dark */
+      padding: 3rem;
+      border-radius: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  
+
+.hero-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-right {
+  flex: 1;
+  background-color: #444444;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  min-width: 300px;
+  bottom: 10px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+section {
+  background-color: white;
+  margin: 1rem;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  margin-top: 2rem;
+  background-color: #444444;
+  color: white;
+}
+
+a {
+  color: #444444;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.custom-navbar {
+  background-color: #444444 !important; /* or any custom color */
+}
+
+.custom-navbar .nav-link {
+  color: white !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #cccccc !important;
+}
+
+.custom-navbar .navbar-brand {
+  color: white !important;
+}
+
+.photo-gallery {
+  background-color: #f8f9fa;
+  padding: 60px 20px;
+}
+
+.photo-card {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+  margin-bottom: 20px;
+}
+
+.photo-card:hover {
+  transform: scale(1.03);
+}
+
+.photo-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.web3-experience {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #ffffff;
+  padding: 40px 20px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.web3-content {
+  flex: 2;
+  min-width: 300px;
+}
+
+.web3-image {
+  flex: 1;
+  min-width: 250px;
+  text-align: right;
+}
+
+.web3-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
